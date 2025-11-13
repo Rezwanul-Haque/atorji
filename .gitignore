@@ -3,11 +3,11 @@
 # dependencies
 node_modules/
 
-# Expo
-.expo/
-dist/
-web-build/
-expo-env.d.ts
+# Frontend - Expo
+frontend/.expo/
+frontend/dist/
+frontend/web-build/
+frontend/expo-env.d.ts
 
 # Native
 .kotlin/
@@ -37,5 +37,22 @@ yarn-error.*
 *.tsbuildinfo
 
 # generated native folders
-/ios
-/android
+frontend/ios
+frontend/android
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+
+# OS
+Thumbs.db
+
+.serena
+.playwright-mcp
